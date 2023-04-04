@@ -1,0 +1,16 @@
+nav {
+    background-color: tan;
+    color: darkgreen;
+}
+#home {
+    color: red;
+    visibility: hidden;
+}
+#about {
+    color: blue;
+    visibility: hidden;
+}
+#contact {
+    color: black;
+    visibility: hidden;
+}
