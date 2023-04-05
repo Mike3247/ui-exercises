@@ -5,15 +5,19 @@ const menuDiv = document.getElementById("menu");
 // const dropdownNavs = document.getElementsByClassName("dropdown");
 // const arrayOfDropdownNavs = Array.from(dropdownNavs);
 
-function toggleDisplayHome() {
-    const homeDiv = document.getElementById("home");
-    if (homeDiv.style.display === "none") {
-        homeDiv.style.display = "block";
-    } else {
-        homeDiv.style.display = "none";
-    }
+function toggleDisplayDivs() {
+    const dropDivs = document.getElementsByClassName("dropDivs");
+    const arrayOfDropDivs = Array.from(dropDivs);
+    arrayOfDropDivs.forEach((item) => {
+        if (item.style.display === "none") {
+            item.style.display = "block";
+        } else {
+            item.style.display = "none";
+        }
+    });
+    
 };
 
 menuDiv.addEventListener("click", () => {
-    toggleDisplayHome();
+    toggleDisplayDivs();
 });

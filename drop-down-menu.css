@@ -2,18 +2,15 @@ div {
     background-color: tan;
     color: darkgreen;
 }
-#menu {
-    display: block;
+.dropDivs {
+    display: none;
 }
 #home {
     color: red;
-    display: none;
 }
 #about {
     color: blue;
-    display: none;
 }
 #contact {
     color: black;
-    display: none;
 }
