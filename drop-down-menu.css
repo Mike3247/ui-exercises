@@ -1,16 +1,19 @@
-nav {
+div {
     background-color: tan;
     color: darkgreen;
 }
+#menu {
+    display: block;
+}
 #home {
     color: red;
-    visibility: hidden;
+    display: none;
 }
 #about {
     color: blue;
-    visibility: hidden;
+    display: none;
 }
 #contact {
     color: black;
-    visibility: hidden;
+    display: none;
 }
