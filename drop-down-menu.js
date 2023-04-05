@@ -1,9 +1,4 @@
 const menuDiv = document.getElementById("menu");
-// const homeNav = document.getElementById("home");
-// const aboutNav = document.getElementById("about");
-// const contactNav = document.getElementById("contact");
-// const dropdownNavs = document.getElementsByClassName("dropdown");
-// const arrayOfDropdownNavs = Array.from(dropdownNavs);
 
 function toggleDisplayDivs() {
     const dropDivs = document.getElementsByClassName("dropDivs");

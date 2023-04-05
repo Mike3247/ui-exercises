@@ -1,0 +1,26 @@
+div {
+    background-color: tan;
+    color: darkgreen;
+}
+#imageSliderBox {
+    text-align: center;
+    border:5px solid blue;
+    height: 100vh;
+}
+.slides {
+    display: grid;
+    border: 5px solid red;
+    height:max-content;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+
+}
+#slide1 {
+    color: red;
+}
+#about {
+    color: blue;
+}
+#contact {
+    color: black;
+}
