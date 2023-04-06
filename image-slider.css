@@ -11,16 +11,24 @@ div {
     display: grid;
     border: 5px solid red;
     height:max-content;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-size: 56px;
+    grid-template-columns: 1fr 1fr 1fr;
     
 
 }
-#slide1 {
+.slides > div {
+    border: 5px solid black;
+}
+#slide2 {
     color: red;
+    display: block;
+    width: 300px;
+    height: 300px;
+    font-size: 100px;
 }
-#about {
-    color: blue;
+#slide3 {
+    display: none;
 }
-#contact {
-    color: black;
+#slide4 {
+    display: none;
 }
